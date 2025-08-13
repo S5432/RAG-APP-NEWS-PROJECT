@@ -1,0 +1,37 @@
+2025-07-16 17:25:22,057 — INFO — Loaded 105 existing articles.
+2025-07-16 17:25:28,865 — INFO — Launching browser...
+2025-07-16 17:25:31,455 — INFO — Navigating to: https://hiphophero.com/articles/news/
+2025-07-16 17:25:40,443 — INFO — Found 10 articles
+2025-07-16 17:25:40,462 — INFO — [1] Scraping article: https://hiphophero.com/travis-scott-kanye-west-motion-dismiss-lawsuit/
+2025-07-16 17:25:44,121 — INFO — Loaded article page: https://hiphophero.com/travis-scott-kanye-west-motion-dismiss-lawsuit/
+2025-07-16 17:25:44,246 — INFO — Scraped article: Travis Scott drags Kanye West into motion to dismiss infringement lawsuit | 16-07-2025
+2025-07-16 17:25:45,280 — INFO — [2] Scraping article: https://hiphophero.com/nicki-minaj-sza-beef-feud/
+2025-07-16 17:25:48,957 — INFO — Loaded article page: https://hiphophero.com/nicki-minaj-sza-beef-feud/
+2025-07-16 17:25:49,061 — INFO — Scraped article: Nicki Minaj calls SZA a “fucking dead dog” amid feud | 16-07-2025
+2025-07-16 17:25:50,083 — INFO — [3] Scraping article: https://hiphophero.com/troy-ave-shooting-video-robbery/
+2025-07-16 17:25:53,781 — INFO — Loaded article page: https://hiphophero.com/troy-ave-shooting-video-robbery/
+2025-07-16 17:25:53,873 — INFO — Scraped article: Troy Ave shoots attempted robber in video footage | 16-07-2025
+2025-07-16 17:25:54,883 — INFO — [4] Scraping article: https://hiphophero.com/sean-diddy-combs-drug-use-domestic-violence-therapy/
+2025-07-16 17:25:58,346 — INFO — Loaded article page: https://hiphophero.com/sean-diddy-combs-drug-use-domestic-violence-therapy/
+2025-07-16 17:25:58,437 — INFO — Scraped article: Sean ‘Diddy’ Combs signs up for drug use and domestic violence therapy | 16-07-2025
+2025-07-16 17:25:59,444 — INFO — [5] Scraping article: https://hiphophero.com/kendrick-lamar-2025-emmy-nominations/
+2025-07-16 17:26:03,497 — INFO — Loaded article page: https://hiphophero.com/kendrick-lamar-2025-emmy-nominations/
+2025-07-16 17:26:03,619 — INFO — Scraped article: Kendrick Lamar earns four nominations at the 2025 Emmy Awards | 16-07-2025
+2025-07-16 17:26:04,647 — INFO — [6] Scraping article: https://hiphophero.com/azealia-banks-conor-mcgregor-nudes-sexual-harassment/
+2025-07-16 17:26:08,374 — INFO — Loaded article page: https://hiphophero.com/azealia-banks-conor-mcgregor-nudes-sexual-harassment/
+2025-07-16 17:26:08,460 — INFO — Scraped article: Azealia Banks accuses Conor McGregor of sexual harassment and leaks his alleged nudes | 15-07-2025
+2025-07-16 17:26:09,468 — INFO — [7] Scraping article: https://hiphophero.com/trey-songz-accused-attacking-photographer-new-york/
+2025-07-16 17:26:13,076 — INFO — Loaded article page: https://hiphophero.com/trey-songz-accused-attacking-photographer-new-york/
+2025-07-16 17:26:13,170 — INFO — Scraped article: Trey Songz accused of attacking photographer in New York | 15-07-2025
+2025-07-16 17:26:14,190 — INFO — [8] Scraping article: https://hiphophero.com/drake-63-witnesses-not-like-us-lawsuit-umg/
+2025-07-16 17:26:17,974 — INFO — Loaded article page: https://hiphophero.com/drake-63-witnesses-not-like-us-lawsuit-umg/
+2025-07-16 17:26:18,074 — INFO — Scraped article: Drake names 63 possible witnesses in ‘Not Like Us’ lawsuit against UMG | 15-07-2025
+2025-07-16 17:26:19,095 — INFO — [9] Scraping article: https://hiphophero.com/top5-drake-affiliate-stabbed-london-wireless-festival/
+2025-07-16 17:26:22,909 — INFO — Loaded article page: https://hiphophero.com/top5-drake-affiliate-stabbed-london-wireless-festival/
+2025-07-16 17:26:22,999 — INFO — Scraped article: Drake affiliate Top5 stabbed in London following Wireless Festival | 15-07-2025
+2025-07-16 17:26:24,014 — INFO — [10] Scraping article: https://hiphophero.com/snoop-dogg-swansea-city-new-shirt/
+2025-07-16 17:26:27,760 — INFO — Loaded article page: https://hiphophero.com/snoop-dogg-swansea-city-new-shirt/
+2025-07-16 17:26:27,852 — INFO — Scraped article: Snoop Dogg helps Swansea City announce new shirt with Ryan Reynolds dig | 14-07-2025
+2025-07-16 17:26:28,962 — INFO — Browser closed.
+2025-07-16 17:26:28,980 — INFO —  Saved 10 new articles. Total: 115
+2025-07-16 17:26:28,981 — INFO — Scraping completed.

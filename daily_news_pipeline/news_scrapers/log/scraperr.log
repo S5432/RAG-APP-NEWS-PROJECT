@@ -1,0 +1,139 @@
+2025-07-16 17:38:37,523 - INFO - daily_scraper_rap_up.py:172 - ======== Starting Rap-Up Scraper Pipeline ========
+2025-07-16 17:38:37,526 - INFO - daily_scraper_rap_up.py:178 - Loaded 210 existing articles from JSON.
+2025-07-16 17:38:37,527 - ERROR - daily_scraper_rap_up.py:209 - Fatal error in the scraping pipeline.
+Traceback (most recent call last):
+  File "G:\16-07-2025\New_News_Rag_App_V2\daily_news_pipeline\news_scrapers\daily_scraper_rap_up.py", line 185, in rap_up_scraper
+    with sync_playwright() as p:
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\Vinayak\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\Lib\site-packages\playwright\_impl\_connection.py", line 301, in run_as_sync
+    await self.run()
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\Lib\site-packages\playwright\_impl\_connection.py", line 310, in run
+    await self._transport.connect()
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vinayak\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vinayak\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1744, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vinayak\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 524, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-07-16 17:38:37,550 - INFO - daily_scraper_rap_up.py:211 - ======== Finished Rap-Up Scraper Pipeline ========
+2025-07-16 18:21:12,735 - INFO - daily_scraper_rap_up.py:172 - ======== Starting Rap-Up Scraper Pipeline ========
+2025-07-16 18:21:12,753 - INFO - daily_scraper_rap_up.py:178 - Loaded 220 existing articles from JSON.
+2025-07-16 18:21:12,756 - ERROR - daily_scraper_rap_up.py:209 - Fatal error in the scraping pipeline.
+Traceback (most recent call last):
+  File "G:\16-07-2025\New_News_Rag_App_V2\daily_news_pipeline\news_scrapers\daily_scraper_rap_up.py", line 185, in rap_up_scraper
+    with sync_playwright() as p:
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\Vinayak\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\lib\site-packages\playwright\_impl\_connection.py", line 301, in run_as_sync
+    await self.run()
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\lib\site-packages\playwright\_impl\_connection.py", line 310, in run
+    await self._transport.connect()
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "G:\16-07-2025\New_News_Rag_App_V2\myenv\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "C:\Users\Vinayak\AppData\Local\Programs\Python\Python310\lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "C:\Users\Vinayak\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "C:\Users\Vinayak\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-07-16 18:21:12,757 - INFO - daily_scraper_rap_up.py:211 - ======== Finished Rap-Up Scraper Pipeline ========
+2025-07-16 18:23:47,956 - INFO - daily_scraper_rap_up.py:172 - ======== Starting Rap-Up Scraper Pipeline ========
+2025-07-16 18:23:47,961 - INFO - daily_scraper_rap_up.py:178 - Loaded 220 existing articles from JSON.
+2025-07-16 18:23:48,440 - INFO - daily_scraper_rap_up.py:98 - Scraping section: news | URL: https://www.rap-up.com/category/news
+2025-07-16 18:23:56,397 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Eminem’s “Stan” Is Getting The Documentary Treatment — Watch
+2025-07-16 18:23:59,217 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: N3on Addresses His Livestream Chat After "The Breakfast Club
+2025-07-16 18:24:01,214 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Joyner Lucas Responds To Skepta Diss With “Nobody Cares”
+2025-07-16 18:24:03,698 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Beyoncé And Kendrick Lamar Score 2025 Emmy Nominations For T
+2025-07-16 18:24:05,979 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Offset’s Heart-Eyes Emoji Comment Under A Sabrina Carpenter 
+2025-07-16 18:24:08,781 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Trippie Redd Celebrates Daughter Miyoco Turning 1 Month Old:
+2025-07-16 18:24:11,250 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Rihanna Had The Funniest Response To A Random Question About
+2025-07-16 18:24:13,692 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Drake Pays Tribute To Virgil Abloh With Cogsworth Chain Made
+2025-07-16 18:24:15,663 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Drake’s Friend, Rapper Top5, Reportedly Stabbed In London
+2025-07-16 18:24:18,179 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Rihanna Thinks ASAP Rocky Should Voice This Smurf In The Nex
+2025-07-16 18:24:20,636 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: GELO, Clipse And Busta Rhymes Set To Bring The Heat At 2025 
+2025-07-16 18:24:22,588 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Travis Scott’s Response To Pusha T Diss On ‘JACKBOYS 2’ Gets
+2025-07-16 18:24:24,541 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: Chlöe Says "Love Island USA" Olandria And Nic Had Something 
+2025-07-16 18:24:26,513 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: RZA And Riot Join Rihanna For Red Carpet Debut At 'Smurfs' P
+2025-07-16 18:24:29,021 - INFO - daily_scraper_rap_up.py:155 - [news] Scraped: AMP Members Launch Personal Care Brand TONE Available At Tar
+2025-07-16 18:24:30,023 - INFO - daily_scraper_rap_up.py:114 - Reached max article limit (15) for news
+2025-07-16 18:24:30,024 - INFO - daily_scraper_rap_up.py:165 - Finished scraping section: news | Articles scraped: 15
+2025-07-16 18:24:31,039 - INFO - daily_scraper_rap_up.py:98 - Scraping section: new-music | URL: https://www.rap-up.com/category/new-music
+2025-07-16 18:24:36,052 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Justin Bieber Recruits Gunna, Sexyy Red And Plenty More For 
+2025-07-16 18:24:38,824 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Skepta Sends Shots At Joyner Lucas And More In New Diss Trac
+2025-07-16 18:24:41,715 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: NLE Choppa Channels 2Pac On “Messiah (Devil’s Diss)” After S
+2025-07-16 18:24:44,501 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: ASAP Rocky Shares Powerful “Pray4DaGang” Visual From ‘DON’T 
+2025-07-16 18:24:46,800 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Drake Premieres Fiery “What Did I Miss?” Single In Toronto L
+2025-07-16 18:24:49,668 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: JID And Eminem Reunite On “Animals (Pt. 1)” On New EP ‘GDLU 
+2025-07-16 18:24:52,645 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Gunna Enters Beast Mode And Confirms Co-Ownership Deal In “W
+2025-07-16 18:24:55,587 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: JID Goes Berserk On “32 (Freestyle),” Announces ‘PRELUXE’ Ve
+2025-07-16 18:24:58,472 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Lizzo Drops 'MY FACE HURTS FROM SMILING' Mixtape With Help F
+2025-07-16 18:25:01,276 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Rob49’s “WTHELLY (Remix)” With G Herbo Heats Up With New Mus
+2025-07-16 18:25:04,028 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: A’ja Wilson, LeBron James, And Every Reference You Might’ve 
+2025-07-16 18:25:06,819 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Lil Wayne Tells His “Momma Don’t Worry” On Latest ‘Tha Carte
+2025-07-16 18:25:09,621 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Listen To Nicki Minaj Fire Shots At Shannon Sharpe And More 
+2025-07-16 18:25:12,515 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Lil Yachty’s New Single Is “Murda” In The First Degree — Wha
+2025-07-16 18:25:15,849 - INFO - daily_scraper_rap_up.py:155 - [new-music] Scraped: Lil Wayne's 'Tha Carter VI' Is Finally Here And He's Still G
+2025-07-16 18:25:16,854 - INFO - daily_scraper_rap_up.py:114 - Reached max article limit (15) for new-music
+2025-07-16 18:25:16,854 - INFO - daily_scraper_rap_up.py:165 - Finished scraping section: new-music | Articles scraped: 15
+2025-07-16 18:25:17,861 - INFO - daily_scraper_rap_up.py:98 - Scraping section: exclusives | URL: https://www.rap-up.com/category/exclusives
+2025-07-16 18:25:23,715 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: The 12 Best Diss Tracks, Part 1: Kendrick Lamar’s “Not Like 
+2025-07-16 18:25:26,512 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: 9 Of Lil Baby’s Cutest Dad Moments With Jason And Loyal
+2025-07-16 18:25:30,027 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: 11 Quintessential Sexy Drill Songs From Cash Cobain, Drake A
+2025-07-16 18:25:32,843 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: 11 Of Kehlani’s Sexiest Moments
+2025-07-16 18:25:35,628 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: Drake’s 11 Cutest Dad Moments — See All His Most Adorable Ph
+2025-07-16 18:25:38,374 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: 13 Songs That Feel Like Summer: GloRilla’s “TGIF,” Cardi B’s
+2025-07-16 18:25:41,115 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: 9 Of The Best Posthumous Rap Albums
+2025-07-16 18:25:44,073 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: 11 Times JT Proved She’s An It Girl In Fashion, Too — Not Ju
+2025-07-16 18:25:46,828 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: Latto And Brooklyn Nikole’s Cutest Moments That Show Their U
+2025-07-16 18:25:49,618 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: Drake And PARTYNEXTDOOR’s 13 Best Collaborations Ranked
+2025-07-16 18:25:52,383 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: 10 NBA YoungBoy Deep Cuts You Need In Your Rotation
+2025-07-16 18:25:55,689 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: Essential KenTheMan Tracks You Need to Hear
+2025-07-16 18:25:58,510 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: 9 Cardi B Lyrics To Boost Your Confidence And Remind You Who
+2025-07-16 18:26:00,771 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: 12 Of The Best Rap Songs That Came From Movie Soundtracks
+2025-07-16 18:26:03,522 - INFO - daily_scraper_rap_up.py:155 - [exclusives] Scraped: Coi Leray’s Best Collaborations That Prove Her Star Power An
+2025-07-16 18:26:04,538 - INFO - daily_scraper_rap_up.py:114 - Reached max article limit (15) for exclusives
+2025-07-16 18:26:04,539 - INFO - daily_scraper_rap_up.py:165 - Finished scraping section: exclusives | Articles scraped: 15
+2025-07-16 18:26:05,553 - INFO - daily_scraper_rap_up.py:98 - Scraping section: music-videos | URL: https://www.rap-up.com/category/music-videos
+2025-07-16 18:26:12,422 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Chance the Rapper Lights Up “Tree” With Lil Wayne And Smino 
+2025-07-16 18:26:15,391 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Kehlani Drops Highly Anticipated Visual For "Folded" — Here'
+2025-07-16 18:26:18,120 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: GloRilla And Kirk Franklin Bless Fans With “RAIN DOWN ON ME”
+2025-07-16 18:26:21,399 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: GloRilla Flips Keyshia Cole’s “Love” Into A Summer Anthem Ab
+2025-07-16 18:26:24,158 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Latto Is Bringing In Summer Early With Her Aaliyah-Flipping 
+2025-07-16 18:26:26,978 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Central Cee And Lil Durk Parade Through Paris In “Truth In T
+2025-07-16 18:26:30,280 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Central Cee And 21 Savage Come Together For “GBP” Music Vide
+2025-07-16 18:26:33,125 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Megan Thee Stallion And Flo Milli Turn “Roc Steady” Video In
+2025-07-16 18:26:35,606 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Anitta Has Lips Growing From Her Belly In Halloween-Themed V
+2025-07-16 18:26:37,949 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Latto Taps Rubi Rose, Desi Banks, And Alabama Barker For “Br
+2025-07-16 18:26:40,949 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Travis Scott Hints “Mo City Flexologist” Hitting DSPs After 
+2025-07-16 18:26:43,766 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Megan Thee Stallion And RM Team Up For “Neva Play” Music Vid
+2025-07-16 18:26:46,800 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Halle Bailey Goes On A Clone-Fueled Frenzy In ‘Because I Lov
+2025-07-16 18:26:50,202 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Rob49 And Cardi B Go All Out On First-Ever Collaboration "On
+2025-07-16 18:26:52,712 - INFO - daily_scraper_rap_up.py:155 - [music-videos] Scraped: Ice Spice And Central Cee Fans React To Flirty "Did It First
+2025-07-16 18:26:53,723 - INFO - daily_scraper_rap_up.py:114 - Reached max article limit (15) for music-videos
+2025-07-16 18:26:53,724 - INFO - daily_scraper_rap_up.py:165 - Finished scraping section: music-videos | Articles scraped: 15
+2025-07-16 18:26:54,790 - INFO - daily_scraper_rap_up.py:203 - Browser session closed.
+2025-07-16 18:26:54,803 - INFO - daily_scraper_rap_up.py:75 - Saving unique articles to JSON...
+2025-07-16 18:26:54,810 - INFO - daily_scraper_rap_up.py:88 - Saved 280 unique articles to news_articles_data\news_articles_data.json
+2025-07-16 18:26:54,810 - INFO - daily_scraper_rap_up.py:206 - Scraping complete. Total articles saved: 280
+2025-07-16 18:26:54,811 - INFO - daily_scraper_rap_up.py:211 - ======== Finished Rap-Up Scraper Pipeline ========

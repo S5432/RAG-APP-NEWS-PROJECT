@@ -1,0 +1,3 @@
+2025-07-16 14:12:38,700 - ERROR - articles_uploder - load_json_data - 48 - File not found: news_pipeline/data/news_articles.json
+2025-07-16 14:12:38,700 - INFO - articles_uploder - filter_today_articles - 71 - Filtered 0 articles published today (16-07-2025).
+2025-07-16 14:12:39,861 - INFO - articles_uploder - initialize_pinecone_index - 156 - Pinecone index already exists: news-data-index
